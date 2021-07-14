@@ -23,8 +23,8 @@ Investigate it against image placement and its relation
 ```
 . .env/bin/activate
 mkdir my_images
-cd my_images
 python run.py -i /path/to/your/file.xlsx -s MYSHEET -f 6 -r 7 -l 2 -o my_images/
+deactivate
 ```
 
 Enjoy!
